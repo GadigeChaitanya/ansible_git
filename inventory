@@ -1,3 +1,7 @@
-cloud_user@bbbb486d373f4a47a51c01f06c018b334c.mylabserver.com
-cloud_user@bbbb486d373f4a47a51c01f06c018b335c.mylabserver.com
+[web_servers]
+cloud_user@bbbb486d373f4a47a51c01f06c018b334c.mylabserver.com  
 cloud_user@bbbb486d373f4a47a51c01f06c018b336c.mylabserver.com
+
+[db_server]
+cloud_user@bbbb486d373f4a47a51c01f06c018b335c.mylabserver.com 
+ 
