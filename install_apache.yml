@@ -38,9 +38,9 @@
       state: latest
     when: ansible_distribution == "CentOS"
 
-  #- #name: Configure firewall
-    #become: true
-    #environment:
-     # PATH: "{{ ansible_env.PATH }}:/usr/sbin"
-    #command: sudo firewall-cmd --add-service=http --permanent
+#  - name: Configure firewall
+#    become: true
+#    environment:
+#      PATH: "{{ ansible_env.PATH }}:/usr/sbin"
+#    command: sudo firewall-cmd --add-service=http --permanent
 
