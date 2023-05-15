@@ -1,3 +1,18 @@
+#- name: install apache and php packages
+#  tags: apache,httpd,ubuntu
+#  package:
+#    name:
+#      - "{{ apache_package_name }}"
+#      - "{{ php_package_name }}"
+#    state: latest
+
+#- name: start and enable apache 
+#  tags: apache,centos,httpd
+#  service:
+#    name: "{{ apache_service }}"
+#    state: started
+#    enabled: yes
+
 - name: install apache and php packages for Ubuntu
   tags: apache,apache2,ubuntu
   apt:
